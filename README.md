@@ -72,7 +72,23 @@ Many companies have built products and solutions based on PostgreSQL. Some featu
 
 ## Install PostgreSQL on Windows
 
+There are 4 software components to install:
+- The PostgreSQL Server to install the PostgreSQL database server
+- pgAdmin 4 to install the PostgreSQL database GUI management tool.
+- Command Line Tools to install command-line tools such as psql, pg_restore, etc. These tools allow you to interact with the PostgreSQL database server using the command-line interface.
+- Stack Builder provides a GUI that allows you to download and install drivers that work with PostgreSQL.
 
+### Verify the Installation
+
+There are several ways to verify the PostgreSQL installation. You can try to connect to the PostgreSQL database server from any client application e.g.,  psql and pgAdmin.
+
+The quick way to verify the installation is through the psql program.
+
+The quick way to verify the installation is through the psql program.
+
+First, click the psql application to launch it. The psql command-line program will display.
+
+![](https://sp.postgresqltutorial.com/wp-content/uploads/2020/07/Install-PostgreSQL-psql.png)
 -----
 
 References:
