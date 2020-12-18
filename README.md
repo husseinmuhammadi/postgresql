@@ -21,8 +21,13 @@ Since then, the PostgreSQL Global Development Group, a dedicated community of co
 Originally, PostgreSQL was designed to run on UNIX-like platforms. And then, PostgreSQL was evolved run on various platforms such as Windows, macOS, and Solaris.
 
 ## Common Use cases of PostgreSQL
-1) A robust database in the LAPP stack
-2) General purpose transaction database
-3) ***Geospatial database***: PostgreSQL with the PostGIS extension supports geospatial databases for geographic information systems (GIS).
+1) ***A robust database in the LAPP stack***:
+LAPP stands for Linux, Apache, PostgreSQL, and PHP (or Python and Perl). PostgreSQL is primarily used as a robust back-end database that powers many dynamic websites and web applications.
+
+2) ***General purpose transaction database***:
+Large corporations and startups alike use PostgreSQL as primary databases to support their applications and products.
+
+3) ***Geospatial database***:
+PostgreSQL with the PostGIS extension supports geospatial databases for geographic information systems (GIS).
 
 
