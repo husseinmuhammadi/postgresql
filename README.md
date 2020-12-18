@@ -1,7 +1,5 @@
 # PostgreSQL
 
-[]
-
 ## What is PostgreSQL
 
 Let’s start with a simple question: what is PostgreSQL?
@@ -10,7 +8,7 @@ PostgreSQL is an advanced, enterprise-class, and open-source relational database
 
 PostgreSQL is a highly stable database backed by more than 20 years of development by the open-source community.
 
-## History of PostgreSQL
+### History of PostgreSQL
 
 The PostgreSQL project started in 1986 at Berkeley Computer Science Department, University of California.
 
@@ -22,7 +20,7 @@ Since then, the PostgreSQL Global Development Group, a dedicated community of co
 
 Originally, PostgreSQL was designed to run on UNIX-like platforms. And then, PostgreSQL was evolved run on various platforms such as Windows, macOS, and Solaris.
 
-## Common Use cases of PostgreSQL
+### Common Use cases of PostgreSQL
 1) ***A robust database in the LAPP stack***:
 LAPP stands for Linux, Apache, PostgreSQL, and PHP (or Python and Perl). PostgreSQL is primarily used as a robust back-end database that powers many dynamic websites and web applications.
 
@@ -32,7 +30,7 @@ Large corporations and startups alike use PostgreSQL as primary databases to sup
 3) ***Geospatial database***:
 PostgreSQL with the PostGIS extension supports geospatial databases for geographic information systems (GIS).
 
-## Language support
+### Language support
 
 PostgreSQL support most popular programming languages:
 
@@ -46,7 +44,7 @@ PostgreSQL support most popular programming languages:
 - Go
 - Tcl
 
-## PostgreSQL feature highlights
+### PostgreSQL feature highlights
 
 PostgreSQL has many advanced features that other enterprise-class database management systems offer, such as:
 
@@ -67,11 +65,16 @@ The recent versions of PostgreSQL support the following features:
 
 PostgreSQL is designed to be extensible. PostgreSQL allows you to define your own data types, index types, functional languages, etc.
 
-## Who uses PostgreSQL
+### Who uses PostgreSQL
 
 Many companies have built products and solutions based on PostgreSQL. Some featured companies are Apple, Fujitsu, Red Hat, Cisco, Juniper Network, Instagram, etc.
+
+
+## Install PostgreSQL on Windows
+
 
 -----
 
 References:
+
 [PostgreSQL Tutorial](https://www.postgresqltutorial.com/install-postgresql/)
