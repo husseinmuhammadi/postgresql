@@ -1,5 +1,7 @@
 # PostgreSQL
 
+[]
+
 ## What is PostgreSQL
 
 Let’s start with a simple question: what is PostgreSQL?
@@ -69,4 +71,7 @@ PostgreSQL is designed to be extensible. PostgreSQL allows you to define your ow
 
 Many companies have built products and solutions based on PostgreSQL. Some featured companies are Apple, Fujitsu, Red Hat, Cisco, Juniper Network, Instagram, etc.
 
+-----
 
+References:
+[PostgreSQL Tutorial](https://www.postgresqltutorial.com/install-postgresql/)
