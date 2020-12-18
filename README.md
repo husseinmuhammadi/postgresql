@@ -84,12 +84,36 @@ There are several ways to verify the PostgreSQL installation. You can try to con
 
 The quick way to verify the installation is through the psql program.
 
-The quick way to verify the installation is through the psql program.
-
 First, click the psql application to launch it. The psql command-line program will display.
 
-![](https://sp.postgresqltutorial.com/wp-content/uploads/2020/07/Install-PostgreSQL-psql.png)
------
+![SQL Shell (psql)](https://sp.postgresqltutorial.com/wp-content/uploads/2020/07/Install-PostgreSQL-psql.png)
+
+Second, enter all the necessary information such as the server, database, port, username, and password. To accept the default, you can press **Enter**.  Note that you should provide the password that you entered during installing the PostgreSQL.
+
+```
+Server [localhost]:
+Database [postgres]:
+Port [5432]:
+Username [postgres]:
+Password for user postgres:
+psql (12.3)
+WARNING: Console code page (437) differs from Windows code page (1252)
+         8-bit characters might not work correctly. See psql reference
+         page "Notes for Windows users" for details.
+Type "help" for help.
+
+postgres=#
+```
+
+Third, issue the command SELECT version(); you will see the following output:
+
+```
+SELECT version();
+```
+
+Congratulation! you’ve successfully installed PostgreSQL database server on your local system. Let’s learn various ways to connect to PostgreSQL database server.
+
+---
 
 References:
 
