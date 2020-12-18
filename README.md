@@ -30,4 +30,43 @@ Large corporations and startups alike use PostgreSQL as primary databases to sup
 3) ***Geospatial database***:
 PostgreSQL with the PostGIS extension supports geospatial databases for geographic information systems (GIS).
 
+## Language support
+
+PostgreSQL support most popular programming languages:
+
+- Python
+- Java
+- C#
+- C/C+
+- Ruby
+- JavaScript (Node.js)
+- Perl
+- Go
+- Tcl
+
+## PostgreSQL feature highlights
+
+PostgreSQL has many advanced features that other enterprise-class database management systems offer, such as:
+
+- User-defined types
+- Table inheritance
+- Sophisticated locking mechanism
+- Foreign key referential integrity
+- Views, rules, subquery
+- Nested transactions (savepoints)
+- Multi-version concurrency control (MVCC)
+- Asynchronous replication
+
+The recent versions of PostgreSQL support the following features:
+
+- Native Microsoft Windows Server version
+- Tablespaces
+- Point-in-time recovery
+
+PostgreSQL is designed to be extensible. PostgreSQL allows you to define your own data types, index types, functional languages, etc.
+
+## Who uses PostgreSQL
+
+Many companies have built products and solutions based on PostgreSQL. Some featured companies are Apple, Fujitsu, Red Hat, Cisco, Juniper Network, Instagram, etc.
+
 
