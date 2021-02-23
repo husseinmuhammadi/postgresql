@@ -1,4 +1,4 @@
-package com.javastudio.tutorial.postgresql;
+package com.javastudio.postgresql;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
