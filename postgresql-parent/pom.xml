@@ -27,7 +27,7 @@
     </properties>
 
     <modules>
-        <!--<module>../postgresql-query</module>-->
+        <module>../postgresql-query</module>
         <!--<module>../postgresql-function</module>-->
         <!--<module>../postgresql-function-return-table</module>-->
         <!--<module>../postgresql-function-return-cursor</module>-->
@@ -39,7 +39,7 @@
         <!--<module>../postgresql-function-return-record-2</module>-->
         <!--<module>../postgresql-function-raise-exception</module>-->
         <!--<module>../postgresql-procedure-add-account</module>-->
-        <module>../postgresql-procedure-get-card-groups</module>
+        <!--<module>../postgresql-procedure-get-card-groups</module>-->
     </modules>
 
     <build>
