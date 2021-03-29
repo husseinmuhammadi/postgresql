@@ -113,6 +113,49 @@ SELECT version();
 
 Congratulation! you’ve successfully installed PostgreSQL database server on your local system. Let’s learn various ways to connect to PostgreSQL database server.
 
+## Backup and Restore
+
+In this tutorial, you will learn how to copy a PostgreSQL database on the same server or from a server to another.
+
+### PostgreSQL copy database within the same server
+
+```
+CREATE DATABASE targetdb 
+WITH TEMPLATE sourcedb;
+```
+
+```
+CREATE DATABASE dvdrental_test 
+WITH TEMPLATE dvdrental;
+```
+
+If the dvdrental database has active connections, you will get the following error:
+
+```
+ERROR:  source database "dvdrental" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+```
+
+The following query returns the active connections:
+
+
+```
+SELECT pid, usename, client_addr 
+FROM pg_stat_activity 
+WHERE datname ='dvdrental';
+```
+
+To terminate the active connections to the dvdrental database, you use the following query:
+
+```
+SELECT pg_terminate_backend (pid)
+FROM pg_stat_activity
+WHERE datname = 'dvdrental';
+```
+
+
+
+
 ---
 
 References:
