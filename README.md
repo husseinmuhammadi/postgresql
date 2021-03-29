@@ -118,4 +118,5 @@ Congratulation! you’ve successfully installed PostgreSQL database server on yo
 References:
 
 [PostgreSQL Tutorial](https://www.postgresqltutorial.com/install-postgresql/)
+
 [PostgreSQL - Copy Database](https://www.postgresqltutorial.com/postgresql-copy-database/)
