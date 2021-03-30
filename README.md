@@ -186,6 +186,6 @@ psql -U postgres -d targetdb -f sourcedb.sql
 
 References:
 
-[PostgreSQL Tutorial](https://www.postgresqltutorial.com/install-postgresql/)
+[PostgreSQL Tutorial - Install PostgreSQL on Windows](https://www.postgresqltutorial.com/install-postgresql/)
 
-[PostgreSQL - Copy Database](https://www.postgresqltutorial.com/postgresql-copy-database/)
+[PostgreSQL - PostgreSQL Copy Database Made Easy](https://www.postgresqltutorial.com/postgresql-copy-database/)
