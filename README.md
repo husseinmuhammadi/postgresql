@@ -188,4 +188,4 @@ References:
 
 [PostgreSQL Tutorial - Install PostgreSQL on Windows](https://www.postgresqltutorial.com/install-postgresql/)
 
-[PostgreSQL - PostgreSQL Copy Database Made Easy](https://www.postgresqltutorial.com/postgresql-copy-database/)
+[PostgreSQL Tutorial - PostgreSQL Copy Database Made Easy](https://www.postgresqltutorial.com/postgresql-copy-database/)
