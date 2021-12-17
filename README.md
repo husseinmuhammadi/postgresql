@@ -113,6 +113,17 @@ SELECT version();
 
 Congratulation! you’ve successfully installed PostgreSQL database server on your local system. Let’s learn various ways to connect to PostgreSQL database server.
 
+
+## Create Database
+
+```
+CREATE DATABASE database_name;
+
+CREATE USER my_username WITH PASSWORD 'my_password';
+
+GRANT ALL PRIVILEGES ON DATABASE "database_name" to my_username;
+```
+
 ## Backup and Restore
 
 In this tutorial, you will learn how to copy a PostgreSQL database on the same server or from a server to another.
@@ -179,7 +190,9 @@ Finally, restore the dump file on the remote server:
 psql -U postgres -d targetdb -f sourcedb.sql
 ```
 
+In case the connection between servers are fast and the size of the database is not big, you can use the following command:
 
+pg_dump -C -h local -U localuser sourcedb | psql -h remote -U remoteuser targetdb
 
 
 ---
