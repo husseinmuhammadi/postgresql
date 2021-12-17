@@ -86,7 +86,7 @@ The quick way to verify the installation is through the psql program.
 
 First, click the psql application to launch it. The psql command-line program will display.
 
-![SQL Shell (psql)](https://sp.postgresqltutorial.com/wp-content/uploads/2020/07/Install-PostgreSQL-psql.png)
+![SQL Shell (psql)](https://www.postgresqltutorial.com/wp-content/uploads/2020/07/Install-PostgreSQL-psql.png)
 
 Second, enter all the necessary information such as the server, database, port, username, and password. To accept the default, you can press **Enter**.  Note that you should provide the password that you entered during installing the PostgreSQL.
 
