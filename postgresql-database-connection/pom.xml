@@ -10,10 +10,10 @@
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>posgresql-jdbc</artifactId>
+    <artifactId>postgresql-database-connection</artifactId>
 
     <properties>
-        <main-class></main-class>
+        <main-class>com.javastudio.postgresql.Application</main-class>
     </properties>
 
     <build>
@@ -43,4 +43,5 @@
             <scope>runtime</scope>
         </dependency>
     </dependencies>
+
 </project>
