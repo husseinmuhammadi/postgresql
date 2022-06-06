@@ -20,11 +20,6 @@ public class ConnectionTest {
         }
     }
 
-    @BeforeEach
-    void setUp() throws IOException {
-
-    }
-
     @Test
     void shouldLoadPostgresqlDriverClass() throws ClassNotFoundException {
         Class<?> driver = Class.forName(properties.getProperty("driver-class-name"));
@@ -36,17 +31,17 @@ public class ConnectionTest {
 
         Class.forName(properties.getProperty("driver-class-name"));
 
-        Connection connection = DriverManager.getConnection(
+        try (Connection connection = DriverManager.getConnection(
                 properties.getProperty("url"),
                 properties.getProperty("username"),
                 properties.getProperty("password")
-        );
+        )) {
+            assertTrue(connection.getAutoCommit());
 
-        assertTrue(connection.getAutoCommit());
-
-        Statement statement = connection.createStatement();
-        ResultSet resultSet = statement.executeQuery("select 1");
-        assertTrue(resultSet.next());
-        assertEquals(1, resultSet.getInt(1));
+            Statement statement = connection.createStatement();
+            ResultSet resultSet = statement.executeQuery("select 1");
+            assertTrue(resultSet.next());
+            assertEquals(1, resultSet.getInt(1));
+        }
     }
 }
