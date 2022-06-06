@@ -224,6 +224,7 @@
 
     <modules>
         <module>postgresql-database-connection</module>
+        <module>postgresql-transaction-support</module>
         <module>postgresql-query</module>
         <!--        <module>../postgresql-function</module>-->
         <!--<module>../postgresql-function-return-table</module>-->
